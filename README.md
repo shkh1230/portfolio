@@ -68,3 +68,39 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `yarn build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+# Portfolio
+
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+## Getting Started
+
+Follow the instructions below to set up and run the project locally.
+
+### Prerequisites
+
+Make sure you have the following installed on your machine:
+
+- [Node.js](https://nodejs.org/) (v14 or higher recommended)
+- [Yarn](https://yarnpkg.com/) (v1.22.5 or higher recommended)
+
+### Installation
+
+1. **Clone the repository:**
+
+   ```bash
+   git clone https://github.com/shkh1230/portfolio.git
+
+**Navigate to the project directory:**
+   ```bash
+cd portfolio
+
+run --yarn install, yarn start
+
+This will run the app in development mode. Open http://localhost:3000 in your browser to view it.
+
+The page will automatically reload if you make edits to the code.
+You will also see any lint errors in the console.
+
+
+
