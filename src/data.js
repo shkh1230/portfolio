@@ -9,6 +9,10 @@ import img2 from "./images/DiscordBot.jpg";
 import img3 from "./images/FlightPlanner.jpg";
 import img4 from "./images/Emotion.png";
 import img5 from "./images/QueryGenius.png";
+import img6 from "./images/uidesign.png";
+import img7 from "./images/apparel.png";
+import img8 from "./images/businesscard.png";
+import img9 from "./images/booth.png";
 
 import { IOCodeWorking } from "react-icons/io5";
 
@@ -89,6 +93,38 @@ export const Projects = [
     }
     
 ];
+
+export const Portfolio = [
+  {
+      id: 1,
+      name: "UI Design",
+      imageSrc: img6,
+      description: "A bot that tracks and analyzes Amazon stock prices using Python, Pandas, and Chromium. It provides real-time alerts based on market movements.",
+      github: "https://github.com/shkh1230/AmazonStockBot",
+  },
+  {
+      id: 2,
+      name: "Aparrel",
+      imageSrc: img7,
+      description: "A custom Discord bot created for managing server activities, built using JavaScript and Discord.js, featuring automated moderation and custom commands.",
+      github: "#",
+  },
+  {
+      id: 3,
+      name: "Business Card",
+      imageSrc: img8,
+      description: "A Java-based application that helps users plan flights by optimizing routes and schedules, designed to enhance travel planning efficiency.",
+      github: "https://github.com/shkh1230/FlightPlan",
+  }, 
+  {
+      id: 4,
+      name: "Booth Design",
+      imageSrc: img9,
+      description: "An AI-driven project using Python, OpenCV, and TensorFlow to detect human emotions from facial expressions in real-time, aimed at improving human-computer interaction.",
+  },
+  
+];
+
 export const SocialLinks = [
     {
       id: 1,
