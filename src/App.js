@@ -2,7 +2,6 @@ import Spline from '@splinetool/react-spline';
 import { useState } from 'react';
 import { IoCodeWorking, IoMenu, IoLogoGithub } from 'react-icons/io5'
 import React, { Component } from 'react'
-import StarfieldAnimation from 'react-starfield-animation'
 import Shehryar from './images/Me.jpeg';
 import Nyc from './images/NYC.JPG';
 
