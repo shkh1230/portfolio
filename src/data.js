@@ -1,5 +1,6 @@
 import {
     IoCodeWorking,
+    IoLogoBehance,
     IoLogoGithub,
     IoLogoLinkedin
 
@@ -13,6 +14,12 @@ import img6 from "./images/uidesign.png";
 import img7 from "./images/apparel.png";
 import img8 from "./images/businesscard.png";
 import img9 from "./images/booth.png";
+import img10 from "./images/carwrap.jpg";
+import img11 from "./images/smgraphic.png"
+import img12 from "./images/Flyer.png"
+import img13 from "./images/book cover.png";
+import img14 from "./images/infrographic.png";
+/*import img15 from "./images/Menu.png";*/
 
 import { IOCodeWorking } from "react-icons/io5";
 
@@ -99,31 +106,63 @@ export const Portfolio = [
       id: 1,
       name: "UI Design",
       imageSrc: img6,
-      description: "A bot that tracks and analyzes Amazon stock prices using Python, Pandas, and Chromium. It provides real-time alerts based on market movements.",
-      github: "https://github.com/shkh1230/AmazonStockBot",
+      description: "Delivering intuitive and impactful UI designs that drive user engagement and elevate brand presence.",
+      github: "#",
   },
   {
       id: 2,
       name: "Aparrel",
       imageSrc: img7,
-      description: "A custom Discord bot created for managing server activities, built using JavaScript and Discord.js, featuring automated moderation and custom commands.",
+      description: "Creating stylish and functional apparel solutions that resonate with target audiences and enhance brand identity.",
       github: "#",
   },
   {
       id: 3,
       name: "Business Card",
       imageSrc: img8,
-      description: "A Java-based application that helps users plan flights by optimizing routes and schedules, designed to enhance travel planning efficiency.",
+      description: "Crafting professional business cards that leave a lasting impression and effectively communicate brand values.",
       github: "https://github.com/shkh1230/FlightPlan",
   }, 
   {
       id: 4,
       name: "Booth Design",
       imageSrc: img9,
-      description: "An AI-driven project using Python, OpenCV, and TensorFlow to detect human emotions from facial expressions in real-time, aimed at improving human-computer interaction.",
+      description: "Designing eye-catching booths that attract attention, engage visitors, and drive successful event marketing.",
   },
-  
+
+  {
+    id: 5,
+    name: "Car Wrap",
+    imageSrc: img10,
+    description: "Producing dynamic car wraps that maximize brand visibility on the move.",
+  },
+  {
+      id: 6,
+      name: "Social Media Graphic",
+      imageSrc: img11,
+      description: "Creating compelling social media graphics that boost online engagement and brand awareness.",
+  },
+  {
+      id: 7,
+      name: "Flyer Design",
+      imageSrc: img12,
+      description: "Designing informative and attractive flyers that effectively convey messages and promote events.",
+  },
+  {
+      id: 8,
+      name: "Book Cover",
+      imageSrc: img13,
+      description: "Crafting visually appealing book covers that captivate readers and reflect the essence of the content.",
+  },
+  {
+      id: 9,
+      name: "Infographic Design",
+      imageSrc: img14,
+      description: "Designing clear and engaging infographics that present complex information in an easily digestible format.",
+  },
+
 ];
+  
 
 export const SocialLinks = [
     {
@@ -141,5 +180,14 @@ export const SocialLinks = [
       name: "LinkedIn",
       link: "https://www.linkedin.com/in/shehryar-khan-sh1230/",
     },
+    
+    {
+      id: 3,
+      iconSrc: (
+        <IoLogoBehance className = "text-blue-800 text-3xl cursor-pointer" />
+      ),
+      name: "Behance",
+      link: "https://www.behance.net/shehryarkhan38"
+    }
     
   ];
